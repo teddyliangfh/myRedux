@@ -1,4 +1,5 @@
-import { combineReducers, createStore } from "redux";
+// import { combineReducers, createStore } from "redux";
+import { createStore } from "../kredux";
 
 // define
 function countReducer(state = 0, action) {
@@ -13,6 +14,6 @@ function countReducer(state = 0, action) {
 }
 
 // create store
-const store = createStore(combineReducers({ count: countReducer }));
+const store = createStore(countReducer);
 
 export default store;
