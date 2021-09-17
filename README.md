@@ -1,1 +1,1 @@
- A simple state container inspire by redux, maintain all basic funcition and main ideas of redux; The best way to study redux is creating one yourself, having a lot of comments in this project to show the main idea of redux;
+ A simple state container inspire by redux, maintain all basic funcition and main ideas of redux; The best way to study redux is creating one yourself.
